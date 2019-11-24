@@ -294,3 +294,6 @@ set -g mode-keys vi
 
 # move status line to top
 #set -g status-position top
+
+bind -n C-x setw synchronize-panes on
+bind -n M-x setw synchronize-panes off
