@@ -300,5 +300,3 @@ set -g mode-keys vi
 bind -n C-x setw synchronize-panes on
 bind -n M-x setw synchronize-panes off
 
-
-bind-key -n C-v send-keys "tmux_to_vim"\; send-keys "Enter"
